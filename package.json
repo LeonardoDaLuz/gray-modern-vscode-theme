@@ -1,0 +1,41 @@
+{
+	"name": "gray-modern-theme",
+	"displayName": "Gray Modern Theme",
+	"description": "A grayer take on the dark modern theme, designed to provide visual comfort and reduce the contrast between the white walls of your room and the code screen. Savior for people with astigmatism",
+	"version": "1.0.0",
+	"publisher": "LeonardoDaLuz",
+	"author": {
+		"name": "LeonardoDaLuz"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"modern",
+		"gray",
+        "confort",
+		"elegant"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Gray Modern",
+				"uiTheme": "vs-dark",
+				"path": "./Themes/gray-modern.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@vscode/vsce": "^3.7.0"
+	}
+}
